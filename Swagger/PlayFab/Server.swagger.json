@@ -134,7 +134,8 @@
         "x-ms-docs-errors": [
           "IdentifierAlreadyClaimed",
           "UserisNotValid"
-        ]
+        ],
+        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/AddPlayerTag": {
@@ -172,7 +173,8 @@
         ],
         "x-ms-docs-errors": [
           "PlayerTagCountLimitExceeded"
-        ]
+        ],
+        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/AddSharedGroupMembers": {
@@ -206,7 +208,8 @@
         "x-ms-docs-errors": [
           "InvalidSharedGroupId",
           "UserAlreadyAdded"
-        ]
+        ],
+        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/AddUserVirtualCurrency": {
@@ -244,7 +247,8 @@
           "InvalidVirtualCurrency",
           "VirtualCurrencyCurrentlyUnavailable"
         ]
-      }
+      },
+       "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
     },
     "/Server/AuthenticateSessionTicket": {
       "post": {
@@ -277,7 +281,8 @@
         "x-requestDetails": "Note that data returned may be Personally Identifying Information (PII), such as email address, and so care should be taken in how this data is stored and managed. Since this call will always return the relevant information for users who have accessed the title, the recommendation is to not store this data locally.",
         "x-ms-docs-errors": [
           "InvalidSessionTicket"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/AwardSteamAchievement": {
@@ -310,7 +315,8 @@
         },
         "x-ms-docs-errors": [
           "UserisNotValid"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/BanUsers": {
@@ -347,7 +353,8 @@
           "Server/RevokeAllBansForUser",
           "Server/RevokeBans",
           "Server/UpdateBans"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/ConsumeItem": {
@@ -383,7 +390,8 @@
           "InvalidItemProperties",
           "ItemNotFound",
           "NoRemainingUses"
-        ]
+        ],
+        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/CreateSharedGroup": {
@@ -417,7 +425,8 @@
         "x-requestDetails": "If SharedGroupId is specified, the service will attempt to create a group with that identifier, and will return an error if it is already in use. If no SharedGroupId is specified, a random identifier will be assigned.",
         "x-ms-docs-errors": [
           "InvalidSharedGroupId"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/DeleteCharacterFromUser": {
@@ -451,7 +460,8 @@
         "x-requestDetails": "This function will delete the specified character from the list allowed by the user, and will also delete any inventory or VC currently held by that character. It will NOT delete any statistics associated for this character, in order to preserve leaderboard integrity.",
         "x-ms-docs-errors": [
           "CharacterNotFound"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/DeletePlayer": {
@@ -485,7 +495,8 @@
         "x-requestDetails": "Deletes all data associated with the player, including statistics, custom data, inventory, purchases, virtual currency balances, characters and shared group memberships. Removes the player from all leaderboards and player search indexes. Does not delete PlayStream event history associated with the player. Does not delete the publisher user account that created the player in the title nor associated data such as username, password, email address, account linkages, or friends list. Note, this API queues the player for deletion and returns immediately. It may take several minutes or more before all player data is fully deleted. Until the player data is fully deleted, attempts to recreate the player with the same user account in the same title will fail with the 'AccountDeleted' error. This API must be enabled for use as an option in the game manager website. It is disabled by default.",
         "x-ms-docs-errors": [
           "APINotEnabledForGameServerAccess"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/DeletePushNotificationTemplate": {
@@ -518,7 +529,8 @@
         },
         "x-ms-docs-errors": [
           "PushNotificationTemplateNotFound"
-        ]
+        ],
+         "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc."
       }
     },
     "/Server/DeleteSharedGroup": {
@@ -551,7 +563,8 @@
         },
         "x-ms-docs-errors": [
           "InvalidSharedGroupId"
-        ]
+        ],
+         "x-ms-trademark":"\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/DeregisterGame": {
