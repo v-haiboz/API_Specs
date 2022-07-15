@@ -4909,7 +4909,7 @@
   },
   "definitions": {
     "Trademark": {
-      "description": "\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \rn\n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc.",
+      "description": "\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \r\n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc.",
       "type": "string"
     },
     "ApiErrorWrapper": {
