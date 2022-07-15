@@ -1708,6 +1708,7 @@
         "x-ms-trademark":{
           "$ref": "#/definitions/Trademark"
         }
+      }
     },
     "/Server/GetPlayFabIDsFromSteamIDs": {
       "post": {
