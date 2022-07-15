@@ -1704,7 +1704,8 @@
             "$ref": "#/responses/ApiErrorWrapper"
           }
         },
-        "x-responseDetails": "For PlayStation Network identifiers which have not been linked to PlayFab accounts, null will be returned."
+        "x-responseDetails": "For PlayStation Network identifiers which have not been linked to PlayFab accounts, null will be returned.",
+        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
       }
     },
     "/Server/GetPlayFabIDsFromSteamIDs": {
@@ -2598,7 +2599,8 @@
           "LinkedAccountAlreadyClaimed",
           "PSNInaccessible",
           "RequestViewConstraintParamsNotAllowed"
-        ]
+        ],
+        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc."
       }
     },
     "/Server/LinkServerCustomId": {
