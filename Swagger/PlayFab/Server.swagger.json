@@ -1705,8 +1705,9 @@
           }
         },
         "x-responseDetails": "For PlayStation Network identifiers which have not been linked to PlayFab accounts, null will be returned.",
-        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc."
-      }
+        "x-ms-trademark":{
+          "$ref": "#/definitions/Trademark"
+        }
     },
     "/Server/GetPlayFabIDsFromSteamIDs": {
       "post": {
@@ -2600,7 +2601,10 @@
           "PSNInaccessible",
           "RequestViewConstraintParamsNotAllowed"
         ],
-        "x-ms-trademark":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc."
+        "x-ms-trademark":{
+          "description":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.",
+          "type":"string"
+        }
       }
     },
     "/Server/LinkServerCustomId": {
@@ -4903,6 +4907,10 @@
     }
   },
   "definitions": {
+    "Trademark": {
+      "description": "\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.  \r\n \rn\n\"PlayStation\" is a registered trademark or trademark of EA Interactive Entertainment Inc.",
+      "type": "string"
+    },
     "ApiErrorWrapper": {
       "description": "The basic wrapper around every failed API response",
       "type": "object",
