@@ -1738,7 +1738,10 @@
             "$ref": "#/responses/ApiErrorWrapper"
           }
         },
-        "x-responseDetails": "For Steam identifiers which have not been linked to PlayFab accounts, null will be returned."
+        "x-responseDetails": "For Steam identifiers which have not been linked to PlayFab accounts, null will be returned.",
+         "x-ms-trademark":{
+          "$ref": "#/definitions/Trademark"
+        }
       }
     },
     "/Server/GetPlayFabIDsFromXboxLiveIDs": {
@@ -1769,7 +1772,10 @@
             "$ref": "#/responses/ApiErrorWrapper"
           }
         },
-        "x-responseDetails": "For XboxLive identifiers which have not been linked to PlayFab accounts, null will be returned."
+        "x-responseDetails": "For XboxLive identifiers which have not been linked to PlayFab accounts, null will be returned.",
+         "x-ms-trademark":{
+          "$ref": "#/definitions/Trademark"
+        }
       }
     },
     "/Server/GetPublisherData": {
