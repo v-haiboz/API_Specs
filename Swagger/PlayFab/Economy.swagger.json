@@ -56,7 +56,11 @@
         "x-ms-docs-errors": [
           "DatabaseThroughputExceeded",
           "NotImplemented"
-        ]
+        ],
+        "x-ms-trademark": {
+          "description": "\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.\r\n\"PlayStation\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.",
+          "type": "string"
+        }
       }
     },
     "/Catalog/CreateUploadUrls": {
