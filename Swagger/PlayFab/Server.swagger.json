@@ -347,7 +347,11 @@
           "Server/RevokeAllBansForUser",
           "Server/RevokeBans",
           "Server/UpdateBans"
-        ]
+        ],
+        "x-ms-trademark":{
+          "description":"\"PSN\" is a registered trademark or trademark of Sony Interactive Entertainment Inc.",
+          "type":"string"
+        }
       }
     },
     "/Server/ConsumeItem": {
